@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ccc5b9;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container{
+  background-color: #264653;
+  width: 30%;
+  height: 40rem;
+  text-align: center;
+  transform: translateY(15%)
+
+}
+
+.age{
+  background-color: #f1faee;
+  width: 90%;
+  height: 15%;
+  margin-left: 5%;
+}
+#ageInput{
+  width: 40%;
+  height: 30px;
+}
+
+
+.typeAge{
+  width: 35%;
+  height: auto;
+}
+
+h1{
+  color: white;
+
+}
+
+h3{
+  padding: 0;
+
+}
+.gender{
+  display: flex;
+  width: 90%;
+  height: 100px;
+  align-items: center;
+  background-color: #f1faee;
+  margin-top: 5%;
+  margin-left: 5%;
+  justify-content: center;
+}
+
+
+
+.bodyParameters {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+  
+.height{
+  width: 50%;
+  height: 100px;
+  background-color: #f1faee;
+  margin-right: 5%;
+}
+.weight{
+  width: 50%;
+  height: 100px;
+  background-color: #f1faee;
+}
+
+#calculate{
+  width: 90%;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: aqua;
+}
+
+input:nth-child(1){
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+#result{
+  color: #f1faee;
+}
+
+
+#health{
+  color: #f1faee;
+
+}
+
+
+@media only screen and (max-width: 790px) {
+    h1{
+      font-size: 20px;
+    }
+
+    #ageInput{
+      width: 60%;
+      height: 15px;
+    }
+    .bodyParameters{
+      display: flex;
+      flex-direction: column;
+    }
+    .height, .weight{
+      width: 100%;
+
+    }
+    .height{
+      margin-bottom: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 482px) {
+    h1{
+      font-size: 15px;
+    }
+}
